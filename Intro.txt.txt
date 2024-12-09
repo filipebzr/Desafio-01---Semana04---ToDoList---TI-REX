@@ -1,0 +1,66 @@
+# Desafio 1 - Semana 04
+
+https://www.figma.com/design/mWF2RXDdhEDVorfxHTLkH1/Challenge-1---Nov24?node-id=0-1&node-type=canvas&t=vt0B4RxOGz99fYbf-0
+
+Dupliquem o projeto do Figma para evitar modificações no projeto original.
+
+**O desfio é individual.**
+
+# Descrição do Desafio
+
+Você precisará recriar as três páginas mencionadas acima, uma ferramenta de produtividade, **mantendo-se fiel ao seu design original** usando HTML, CSS e JS.
+
+Criem e adicionem os instrutores  **até ás 17h30 de hoje (09/12)**  ao seu repositório no GitHub:
+
+- [diego.borges@compasso.com.br](mailto:diego.borges@compasso.com.br)
+- [isabelle.hondo@compasso.com.br](mailto:isabelle.hondo@compasso.com.br)
+- [jailson.souza@compasso.com.br](mailto:jailson.souza@compasso.com.br)
+- [vivian.oliveira@compasso.com.br](mailto:vivian.oliveira@compasso.com.br)
+
+⚠️ Data de entrega: 16/12 – 17h30 – segunda-feira.
+
+Cada apresentação durará no máximo 5 minutos.
+
+# Descrição Header e Footer:
+
+- Header
+    - A Header deve estar em todas as páginas.
+    - Botões "Login" e "Get started" devem redirecionar para a página de login.
+    - Botão “Home” deve redirecionar para a página de início.
+- Footer
+    - O Footer deve estar em todas as páginas, com o design fiel ao Figma.
+    - Os ícones de ‘Facebook’, ‘Instagram’, e ‘LinkedIn’ devem ser clicáveis, direcionando para a página inicial de cada rede social.
+
+# ✅ Os requisitos **OBRIGATÓRIOS** são:
+
+- Utilizar apenas HTML, CSS e JS. **Não podendo usar bibliotecas externas**.
+- Crie um repositório **privado** em seu Github e adicione os instrutores como colaboradores do projeto.
+- Todas as páginas devem conter header e footer (como não estamos trabalhando com componentização ainda, podem replicar os códigos de header e footer nos arquivos HTML de cada página).
+- Adicionar corretamente os links nos botões e ícones, como os de redes sociais, no footer.
+- Os campos de formulário devem ser todos validados com **JavaScript**, isso é válido para todos os campos para preenchimento nas duas páginas.
+- Dê preferência por separar em arquivos diferentes os códigos de styles e script (ou seja, um .html, um .css e um .js).
+- Utilizar tags semânticas para montagem do HTML.
+- Adicione um README ao seu projeto.
+- Faça pequenos commits e use Convencionais Commits para manter seu repositório organizado.
+
+### 🔶 Home
+
+- Ao clicar em Subscribe, deve ser validado se o campo email está preenchido e se está com um e-mail válido (pode usar RegEx, por exemplo), o campo nome também não pode estar vazio. O erro deve ser exibido em tela da forma que você achar melhor.
+- Caso os requisitos sejam atendidos, as informações do formulário devem ser armazenadas no LocalStorage .
+
+### 🔶 Login
+
+- Ao clicar em Login, deve ser validado se o campo email está preenchido e se está com um email válido (pode usar RegEx, por exemplo), o campo senha também não pode estar vazio. O erro deve ser exibido em tela da forma que você achar melhor.
+- Caso os requisitos sejam atendidos, ao clicar em Login a aplicação deve redirecionar à página do Kanban.
+- Essa página não possui scroll.
+
+### 🔶 Kanban
+
+- Essa página deve conter pelo menos três colunas "To Do", "In Progress" e "Complete”.
+- Deve respeitar o design do Figma, sem a necessidade de implementar quaisquer funcionalidades.
+
+### → Os requisitos **OPCIONAIS** são:
+
+- Aplicar responsividade em seu projeto.
+- Aplicar efeitos de Hover.
+- Mensagem de confirmação ao enviar os dados do formulário corretamente. [Design livre]
