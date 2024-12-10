@@ -1,5 +1,7 @@
 # Desafio 1 - Semana 04
 
+MEU - https://www.figma.com/design/HUn1RAn0JhszK4O4w4wSAK/Desafio-1---TIREX?t=73ZInrIcku9QFNXL-0
+
 https://www.figma.com/design/mWF2RXDdhEDVorfxHTLkH1/Challenge-1---Nov24?node-id=0-1&node-type=canvas&t=vt0B4RxOGz99fYbf-0
 
 Dupliquem o projeto do Figma para evitar modificações no projeto original.
