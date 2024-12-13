@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Project Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header id="header">
+        <div id="icon-textHeader">
+            <img src=".\images\icons\logo-header.png" id="icon-header">
+            <h1 class="project-name">Project Manager</h1>
+        </div>
+        <div>
+            <div class="menu" id="menu">
+                <div id="txt-menu">
+                    <a href="home.html">Home</a>
+                </div>
+                <div class="txt-menu">
+                    <p>About</p>
+                </div>
+                <div class="txt-menu">
+                    <p>Settings</p>
+                </div>
+                <div class="txt-menu">
+                    <p>Profile</p>
+                </div>
+                <div id="search-menu">
+                    <input type="search" name="search" id="search">
+                </div>
+            </div>
+    </header>
+
+    <div class="kanban">
+        <div class="todo-col">
+            <h1>To Do</h1>
+            <div class="card">
+                <div class="card-header">
+                    <div class="priority">
+                        <h2 id="high">High</h2>
+                    </div>
+                    <div class="date">
+                        <h3>Oct 16, 24</h3>
+                    </div>
+                </div>
+                <div class="card-title">
+                    <h2>Create app</h2>
+                </div>
+                <div class="card-footer">
+                    <img src="images/icons/card-x.png" alt="card-x">
+                    <div class="card-users">
+                        <h6 class="user" id="user-1">IT</h6>
+                        <h6 class="user" id="user-2">JS</h6>
+                        <h6 class="user" id="user-3">NS</h6>
+                        <h6 class="user" id="user-4">LC</h6>
+                        <h6 class="user" id="user-5">GM</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <div class="priority">
+                        <h2 id="mid">Mid</h2>
+                    </div>
+                    <div class="date">
+                        <h3>Oct 09, 24</h3>
+                    </div>
+                </div>
+                <div class="card-title">
+                    <h2>Train for the project</h2>
+                </div>
+                <div class="card-footer">
+                    <img src="images/icons/card-x.png" alt="card-x">
+                    <div class="card-users">
+                        <h6 class="user" id="user-3">NS</h6>
+
+                        <h6 class="user" id="user-5">GM</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <div class="priority">
+                        <h2 id="low">Low</h2>
+                    </div>
+                    <div class="date">
+                        <h3>Oct 06, 24</h3>
+                    </div>
+                </div>
+                <div class="card-title">
+                    <h2>Make popcorn</h2>
+                </div>
+                <div class="card-footer">
+                    <img src="images/icons/card-x.png" alt="card-x">
+                    <div class="card-users">
+                        <h6 class="user" id="user-5">GM</h6>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="inprogress-col">
+            <h1>In Progress</h1>
+            <div class="card">
+                <div class="card-header">
+                    <div class="priority">
+                        <h2 id="high">High</h2>
+                    </div>
+                    <div class="date">
+                        <h3>Oct 08, 24</h3>
+                    </div>
+                </div>
+                <div class="card-title">
+                    <h2>Debug error</h2>
+                </div>
+                <div class="card-footer">
+                    <img src="images/icons/card-x.png" alt="card-x">
+                    <div class="card-users">
+                        <h6 class="user" id="user-1">IT</h6>
+                        <h6 class="user" id="user-2">JS</h6>
+                        <h6 class="user" id="user-3">NS</h6>
+                        <h6 class="user" id="user-4">LC</h6>
+                        <h6 class="user" id="user-5">GM</h6>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="complete-col">
+            <h1>Complete</h1>
+            <div class="card">
+                <div class="card-header">
+                    <div class="priority">
+                        <h2 id="low">Low</h2>
+                    </div>
+                    <div class="date">
+                        <h3>Apr 02, 21</h3>
+                    </div>
+                </div>
+                <div class="card-title">
+                    <h2>Eat a sandwich</h2>
+                </div>
+                <div class="card-footer">
+                    <img src="images/icons/card-x.png" alt="card-x">
+                    <div class="card-users">
+
+                        <h6 class="user" id="user-5">GM</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <div class="priority">
+                        <h2 id="mid">Mid</h2>
+                    </div>
+                    <div class="date">
+                        <h3>Jan 28, 86</h3>
+                    </div>
+                </div>
+                <div class="card-title">
+                    <h2>Drink water</h2>
+                </div>
+                <div class="card-footer">
+                    <img src="images/icons/card-x.png" alt="card-x">
+                    <div class="card-users">
+
+                        <h6 class="user" id="user-5">GM</h6>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js" async defer></script>
+    <footer>
+        <div id="footer">
+            <div class="icon-social">
+                <div class="background">
+                    <div>
+                        <a href="https://www.facebook.com" target="_blank"></a>
+                        <img src=".\images\icons\facebook.png" class="icon" alt="facebook" id="facebook">
+                    </div>
+                </div>
+                <div class="background">
+                    <div>
+                        <a href="https://www.instagram.com" target="_blank"></a>
+                        <img src=".\images\icons\instagram.png" class="icon" alt="instagram" id="instagram">
+                    </div>
+                </div>
+                <div class="background">
+                    <div id="linkedin">
+                        <a href="https://www.linkedin.com" target="_blank"></a>
+                        <img src=".\images\icons\linkedin.png" class="icon" alt="linkedin" id="linkedin">
+                    </div>
+                </div>
+                <div id="icon-social" class="icon-social">
+                    <div class="txt-company">
+                        <p>© 2024 Project Manager. All rights reserved.</p>
+                    </div>
+                    <div class="txt-company">
+                        <p>Privacy Policy</p>
+                    </div>
+                    <div class="txt-company">
+                        <p>Terms of Service</p>
+                    </div>
+                </div>
+            </div>
+    </footer>
+</body>
+
+</html>
