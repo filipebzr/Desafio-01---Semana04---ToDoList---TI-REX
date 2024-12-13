@@ -19,32 +19,36 @@
             <img src=".\images\icons\logo-header.png" id="icon-header">
             <h1 class="project-name">Project Manager</h1>
         </div>
-        <div>
-            <button class="btn" id="btn-login">Login</button>
-        </div>
+        <nav>
+            <a href="login.html">
+                <button class="btn" id="btn-login">Login</button>
+            </a>
+        </nav>
     </header>
     <div id="main-section">
-        <div class="main-text">
+        <section class="main-text">
             <h1>Welcome to <span class="highligth">Project Manager</span></h1>
             <p>Get your projects and ideas in order, all in one place! Sign up now and discover a smarter way to manage
                 your work with efficiency and teamwork</p>
             <div>
-                <button class="btn" id="get-start">Get Started</button>
+                <a href="login.html">
+                    <button class="btn" id="get-start">Get Started</button>
+                </a>
             </div>
-        </div>
+        </section>
         <div id="capa-img">
             <img src=".\images\capa-img.png" alt="">
         </div>
     </div>
 
-    <div class="section-2">
-        <div id="section2boxText">
+    <section class="section-2">
+        <article id="section2boxText">
             <h1>The manager</h1>
             <p>Project Manager is a tool designed to make organizing and tracking your daily tasks easier than ever.
                 With a clean, intuitive interface and powerful features, you can plan, prioritize, and keep tabs on your
                 projects - whether you’re working solo or a with a team</p>
             <button class="btn" id="learnMore">Learn More</button>
-        </div>
+        </article>
         <div class="section2Boxes">
             <div id="section2Box1">
                 <div id="section2Box1Image" class="imageBox">
@@ -82,9 +86,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div id="section-3">
+    <section id="section-3">
         <div id="section3boxText">
             <h1>Featured Tools</h1>
             <p>Tools to enhance your project management</p>
@@ -95,82 +99,72 @@
                 <div id="section3" class="iconbox">
                     <img src=".\images\icons\settings.png" alt="">
                 </div>
-                <div class="hBox">
-                    <h3>Task Scheduler</h3>
-                </div>
-                <div class="pBox">
-                    <p>Plan and schedule tasks</p>
+                <div class="textBox">
+                    <div class="hBox">
+                        <h3>Task Scheduler</h3>
+                    </div>
+                    <div class="pBox">
+                        <p>Plan and schedule tasks</p>
+                    </div>
                 </div>
             </div>
             <div id="section3icon2">
                 <div id="section3" class="iconbox">
                     <img src=".\images\icons\clock.png" alt="">
                 </div>
-                <div class="hBox">
-                    <h3>Deadline Tracker</h3>
-                </div>
-                <div class="pBox">
-                    <p>Keep track of project deadlines</p>
+                <div class="textBox">
+                    <div class="hBox">
+                        <h3>Deadline Tracker</h3>
+                    </div>
+                    <div class="pBox">
+                        <p>Keep track of project deadlines</p>
+                    </div>
                 </div>
             </div>
             <div id="section3icon3">
                 <div id="section3" class="iconbox">
                     <img src=".\images\icons\baloon.png" alt="">
                 </div>
-                <div class="hBox">
-                    <h3>Communication Hub</h3>
-                </div>
-                <div class="pBox">
-                    <p>Centralized team communication</p>
+                <div class="textBox">
+                    <div class="hBox">
+                        <h3>Communication Hub</h3>
+                    </div>
+                    <div class="pBox">
+                        <p>Centralized team communication</p>
+                    </div>
                 </div>
             </div>
             <div id="section3icon4">
                 <div id="section3" class="iconbox">
                     <img src=".\images\icons\frame.png" alt="">
-                </div>
-                <div class="hBox">
-                    <h3>Progress Report</h3>
-                </div>
-                <div id="section2Box3p" class="pBox">
-                    <p>Track project progress</p>
+                    <div class="textBox">
+                        <div></div>
+                        <div class="hBox">
+                            <h3>Progress Report</h3>
+                        </div>
+                        <div id="section2Box3p" class="pBox">
+                            <p>Track project progress</p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-        </div>
+    </section>
 
-    </div>
-
-    <div id="section-4">
+    <section class="section-4">
         <div id="section4Text">
             <h1>Subscribe to Updates</h1>
             <p>Stay informed with our latest updates</p>
-
         </div>
-        <div id="section4Login">
-            <div class="input">
-                <div class="title">
-                    <h4>Email</h4>
-                </div>
-                <div>
-                    <input type="email" class="textfield">
-                </div>
-                <div>
-                    <p class="info">We promise not to spam</p>
-                </div>
-            </div>
-            <div class="title">
-                <h4>Name</h4>
-            </div>
-            <div>
-                <input type="email" id="name" class="textfield">
-            </div>
-            <div>
-                <button class="btn" id="subscribe">Subscribe</button>
-
-            </div>
-
-        </div>
-
-    </div>
+        <form id="section4Loginfomr">
+            <label for="email">Email</label>
+            <input type="email" id="email" class="textfield" required>
+            <p class="info">We promise not to spam</p>
+            <label for="name">Nome</label>
+            <input type="text" id="name" class="textfield" required>
+            <button type="submit" class="btn" id="subscribe">Subscribe</button>
+        </form>
+    </section>
 
 
     <script src="script.js" async defer></script>
@@ -179,20 +173,23 @@
             <div class="icon-social">
                 <div class="background">
                     <div>
-                        <a href="https://www.facebook.com" target="_blank"></a>
-                        <img src=".\images\icons\facebook.png" class="icon" alt="facebook" id="facebook">
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img src=".\images\icons\facebook.png" class="icon" alt="facebook" id="facebook">
+                        </a>
                     </div>
                 </div>
                 <div class="background">
                     <div>
-                        <a href="https://www.instagram.com" target="_blank"></a>
-                        <img src=".\images\icons\instagram.png" class="icon" alt="instagram" id="instagram">
+                        <a href="https://www.instagram.com" target="_blank">
+                            <img src=".\images\icons\instagram.png" class="icon" alt="instagram" id="instagram">
+                        </a>
                     </div>
                 </div>
                 <div class="background">
                     <div id="linkedin">
-                        <a href="https://www.linkedin.com" target="_blank"></a>
-                        <img src=".\images\icons\linkedin.png" class="icon" alt="linkedin" id="linkedin">
+                        <a href="https://www.linkedin.com" target="_blank">
+                            <img src=".\images\icons\linkedin.png" class="icon" alt="linkedin" id="linkedin">
+                        </a>
                     </div>
                 </div>
                 <div id="icon-social" class="icon-social">

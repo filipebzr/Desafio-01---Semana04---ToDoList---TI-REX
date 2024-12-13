@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+
 
 header {
   display: flex;
@@ -9,7 +14,6 @@ header {
   background-color: #331436;
   color: white;
   padding: 10px 20px;
-  font-size: 28px;
   font-weight: 400;
   font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   box-sizing: border-box;
@@ -17,7 +21,6 @@ header {
 
 #menu {
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -31,7 +34,7 @@ header {
 
   background: #331436;
 
-  /* Inside auto layout */
+
   flex: none;
   order: 2;
   flex-grow: 0;
@@ -66,18 +69,10 @@ header {
 
   border: -1px solid rgb(255, 255, 255);
   border-radius: 6px;
-  /* 
-  flex: none;
-  order: 4;
-  flex-grow: 0; */
+
 
 }
 
-h1 {
-  font-size: 28px;
-  font: optional;
-  font-family: 'Roboto', sans-serif;
-}
 
 #icon-textHeader {
   display: flex;
@@ -102,18 +97,15 @@ h1 {
   background-color: #CB4F57;
   color: #FCF4B6;
   align-items: center;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
   border-radius: 8px;
-}
-
-.btn:hover {
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5)
-}
-
-body {
   font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
 }
+
+
 
 #main-section {
   align-items: center;
@@ -141,10 +133,26 @@ body {
 }
 
 .main-text h1 {
+
+  width: 520px;
+  height: 48px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  text-align: center;
+
   color: #FFFFFF;
-  font-size: 35px;
-  font-family: 'Roboto', sans-serif;
-  margin-bottom: 0;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
 }
 
 .highligth {
@@ -153,13 +161,21 @@ body {
 }
 
 .main-text p {
-  font-size: 16px;
   color: #FFFFFF;
-  /* align-items: center; */
+
   text-align: center;
   font-weight: 700;
   line-height: 20px;
   font-family: 'Roboto', sans-serif;
+  /* description */
+
+  width: 520px;
+  height: 72px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 #get-start {
@@ -187,25 +203,27 @@ body {
   border-radius: 0px;
 }
 
-/* section-2 */
+
 
 .section-2 {
-  /* section-2 */
 
-  /* Auto layout */
+
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 60px 170px;
+  padding-top: 0;
   gap: 60px;
   isolation: isolate;
+  margin-top: 0;
 
-  /* width: auto; */
+
   height: 792px;
 
 
-  /* Inside auto layout */
+
   flex: none;
   order: 2;
   align-self: stretch;
@@ -220,6 +238,25 @@ body {
   margin-bottom: 24px;
   width: 240px;
   height: 48px;
+
+  /* title */
+
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #FFFFFF;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
 
 }
 
@@ -237,14 +274,57 @@ body {
   margin: auto;
 }
 
-#section2boxText {
+#section2boxText h1 {
   display: flex;
   flex-direction: column;
   margin-bottom: 50px;
 
+  width: 1100px;
+  height: 48px;
+  margin: 0;
+  margin-top: 60px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+
+  color: #000000;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+
 }
 
-/* section-3 */
+#section2boxText p {
+  /* description */
+
+  width: 1100px;
+  height: 48px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #020000;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+
+}
+
 
 #section-3 {
 
@@ -255,12 +335,12 @@ body {
   padding: 60px 170px;
   gap: 60px;
 
-  /* width: 1440px; */
+
   height: 552px;
 
   background: rgba(252, 244, 182, 0.5);
 
-  /* Inside auto layout */
+
   flex: none;
   order: 3;
   align-self: stretch;
@@ -271,6 +351,55 @@ body {
 
 #section3boxText {
   text-align: center;
+
+}
+
+#section3boxText h1 {
+  /* title */
+
+  width: 520px;
+  height: 48px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  text-align: center;
+
+  color: #331436;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+}
+
+#section3boxText p {
+  /* description */
+
+  width: 520px;
+  height: 24px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: center;
+
+  color: #331436;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
 }
 
 .section3icons {
@@ -291,8 +420,28 @@ body {
   height: 48px;
 }
 
+.textBox {
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  margin: 0;
+
+  width: 245px;
+  height: 60px;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+
+}
+
 .hBox h3 {
-  /* title */
 
   width: 245px;
   height: 28px;
@@ -302,13 +451,12 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  /* identical to box height, or 140% */
+  margin: 0;
+  margin-top: 20px;
+
   text-align: center;
 
   color: #331436;
-
-
-  /* Inside auto layout */
   flex: none;
   order: 0;
   align-self: stretch;
@@ -317,7 +465,6 @@ body {
 }
 
 .pBox p {
-  /* subtitle */
 
   width: 245px;
   height: 24px;
@@ -325,15 +472,16 @@ body {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
+  margin: 0;
+  margin-top: 8px;
+
   text-align: center;
 
   color: #331436;
 
 
-  /* Inside auto layout */
+
   flex: none;
   order: 1;
   align-self: stretch;
@@ -342,10 +490,7 @@ body {
 }
 
 
-#section-4 {
-  /* section-4 */
-
-  /* Auto layout */
+.section-4 {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -354,40 +499,19 @@ body {
   gap: 60px;
   isolation: isolate;
 
-  /* width: 1440px; */
+  max-width: 1440px;
   height: 388px;
-
-
-  /* Inside auto layout */
-  flex: none;
-  order: 4;
-  align-self: stretch;
-  flex-grow: 0;
-  z-index: 4;
-
 }
 
 
 #section4Text {
-  /* container */
-
-  /* Auto layout */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-  /* gap: 24px; */
 
   width: 520px;
   height: 96px;
-
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 1;
-  z-index: 0;
-
 }
 
 #section4Login {
@@ -396,34 +520,35 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  /* padding: 0px; */
+
   gap: 20px;
   width: 520px;
   height: 268px;
 
-  /* Inside auto layout */
   flex: none;
   order: 1;
   flex-grow: 1;
   z-index: 1;
 }
 
-.input {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  /* padding: 0px; */
-  gap: 4px;
-  margin-top: 0;
-  width: 520px;
-  height: 80px;
+.textfield::placeholder {
+
+  width: 496px;
+  height: 20px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
 
 
-  /* Inside auto layout */
+  color: rgba(0, 0, 0, 0.5);
+
   flex: none;
   order: 0;
-  flex-grow: 0;
+  flex-grow: 1;
+
 }
 
 .title h4 {
@@ -436,7 +561,7 @@ body {
 
   box-sizing: border-box;
 
-  /* Auto layout */
+
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -451,7 +576,8 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 6px;
 
-  /* Inside auto layout */
+
+
   flex: none;
   order: 1;
   align-self: stretch;
@@ -459,12 +585,9 @@ body {
 
 }
 
-.textfield:hover {
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2)
-}
+
 
 .info {
-  /* info */
 
   width: 520px;
   height: 16px;
@@ -474,12 +597,12 @@ body {
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
-  /* identical to box height, or 133% */
+
 
   color: rgba(0, 0, 0, 0.5);
 
 
-  /* Inside auto layout */
+
   flex: none;
   order: 2;
   align-self: stretch;
@@ -543,11 +666,6 @@ footer {
   height: 34px;
 }
 
-.background:hover {
-  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.8)
-}
-
-
 #icons img {
 
   height: 11px;
@@ -583,7 +701,7 @@ footer {
   padding: 60px 170px;
   gap: 60px;
 
-  width: 1440px;
+  max-width: 1440px;
   height: 746px;
   min-height: 600px;
 
@@ -631,12 +749,12 @@ footer {
   font-weight: 500;
   font-size: 24px;
   line-height: 24px;
-  /* identical to box height, or 100% */
+
 
   color: #331436;
 
 
-  /* Inside auto layout */
+
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -659,7 +777,7 @@ footer {
   border: 1px solid #331436;
   border-radius: 8px;
 
-  /* Inside auto layout */
+
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -679,7 +797,7 @@ footer {
   height: 24px;
 
 
-  /* Inside auto layout */
+
   flex: none;
   order: 0;
   align-self: stretch;
@@ -688,11 +806,11 @@ footer {
 }
 
 .priority h2 {
-  /* priority */
+
   font-size: 10px;
   box-sizing: border-box;
 
-  /* Auto layout */
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -719,7 +837,7 @@ footer {
 .date h3 {
 
 
-  width: 46px;
+  width: 60px;
   height: 24px;
 
   font-family: 'Roboto';
@@ -727,12 +845,12 @@ footer {
   font-weight: 500;
   font-size: 10px;
   line-height: 24px;
-  /* identical to box height, or 240% */
+
 
   color: rgba(0, 0, 0, 0.5);
 
 
-  /* Inside auto layout */
+
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -857,4 +975,21 @@ footer {
 
 #user-5 {
   background-color: #AF4A00;
+}
+
+
+.textfield:hover {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2)
+}
+
+.background:hover {
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.8)
+}
+
+.btn:hover {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5)
+}
+
+.card:hover {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5)
 }
