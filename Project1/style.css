@@ -2,9 +2,6 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
 }
-
-
-
 header {
   display: flex;
   flex-direction: row;
@@ -18,7 +15,6 @@ header {
   font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   box-sizing: border-box;
 }
-
 #menu {
   font-family: 'Roboto', sans-serif;
   display: flex;
@@ -29,57 +25,40 @@ header {
   gap: 40px;
   max-width: 100%;
   height: 36px;
-
   text-decoration: none;
-
   background: #331436;
-
-
   flex: none;
   order: 2;
   flex-grow: 0;
-
 }
-
 #txt-menu a {
   color: #fff;
   text-decoration: none;
 }
-
 #search {
   box-sizing: border-box;
-
   background-size: 20px 20px;
   background-color: transparent;
   background-image: url(images/icons/ic-search.png);
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
-
-
   display: flex;
   flex-direction: row;
   justify-content: flex;
   align-items: center;
   padding: 8px;
   gap: 4px;
-
   max-width: 200px;
   height: 36px;
-
   border: -1px solid rgb(255, 255, 255);
   border-radius: 6px;
-
-
 }
-
-
 #icon-textHeader {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 #icon-header {
   margin-top: 15px;
   margin-bottom: 15px;
@@ -88,7 +67,6 @@ header {
   max-width: 50px;
   max-height: 50px;
 }
-
 .btn {
   margin-top: 24px;
   margin-bottom: 24px;
@@ -104,9 +82,6 @@ header {
   font-size: 16px;
   line-height: 24px;
 }
-
-
-
 #main-section {
   align-items: center;
   background-color: #7A1745;
@@ -116,10 +91,7 @@ header {
   justify-content: center;
   margin: 0 auto;
   padding: 30px 170px;
-
 }
-
-
 .main-text {
   display: flex;
   flex-direction: column;
@@ -128,56 +100,40 @@ header {
   height: 216px;
   margin: auto;
   margin-right: 60px;
-  text-align: center;
   gap: 16px;
 }
-
 .main-text h1 {
-
   width: 520px;
   height: 48px;
-
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 40px;
+  white-space: nowrap;
   line-height: 48px;
-  /* identical to box height, or 120% */
   text-align: center;
-
   color: #FFFFFF;
-
-
-  /* Inside auto layout */
   flex: none;
   order: 0;
   flex-grow: 0;
-
 }
-
 .highligth {
   color: #FCF4B6;
   font-weight: bold;
 }
-
 .main-text p {
   color: #FFFFFF;
-
   text-align: center;
   font-weight: 700;
   line-height: 20px;
   font-family: 'Roboto', sans-serif;
-  /* description */
-
   width: 520px;
   height: 72px;
-
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
 }
-
 #get-start {
   background-color: #CB4F57;
   margin-top: 24px;
@@ -185,13 +141,11 @@ header {
   width: 240px;
   height: 48px;
 }
-
 .main-text button {
   margin-top: 24px;
   width: 240px;
   height: 48px;
 }
-
 #capa-img img {
   width: 540px;
   height: 437px;
@@ -202,13 +156,7 @@ header {
   padding: auto;
   border-radius: 0px;
 }
-
-
-
 .section-2 {
-
-
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -218,54 +166,33 @@ header {
   gap: 60px;
   isolation: isolate;
   margin-top: 0;
-
-
   height: 792px;
-
-
-
   flex: none;
   order: 2;
   align-self: stretch;
   flex-grow: 0;
   z-index: 2;
-
 }
-
 #learnMore {
   background-color: #331436;
   margin-top: 24px;
   margin-bottom: 24px;
   width: 240px;
   height: 48px;
-
-  /* title */
-
-
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
-
   color: #FFFFFF;
-
-
-  /* Inside auto layout */
   flex: none;
   order: 0;
   flex-grow: 0;
-
-
 }
-
 .imageBox img {
   display: flex;
   align-items: center;
-
 }
-
 .section2Boxes {
   display: flex;
   flex-direction: row;
@@ -274,174 +201,112 @@ header {
   gap: 40px;
   margin: auto;
 }
-
 .section2Boxes h4 {
-
   width: 316px;
   height: 24px;
-
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-
   color: #331436;
-
   flex: none;
   order: 0;
   align-self: stretch;
   flex-grow: 0;
 }
-
 .section2Boxes p {
-
   width: 316px;
   height: 28px;
-
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 28px;
-
   color: #331436;
-
   flex: none;
   order: 1;
   align-self: stretch;
   flex-grow: 0;
-
 }
-
 #section2boxText h1 {
   display: flex;
   flex-direction: column;
   margin-bottom: 50px;
-
   width: 1100px;
   height: 48px;
   margin: 0;
   margin-top: 60px;
-
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 48px;
-  /* identical to box height, or 120% */
-
   color: #000000;
-
-
-  /* Inside auto layout */
   flex: none;
   order: 0;
   align-self: stretch;
   flex-grow: 0;
-
 }
-
 #section2boxText p {
-  /* description */
-
   width: 1100px;
   height: 48px;
-
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  /* or 150% */
-
   color: #020000;
-
-
-  /* Inside auto layout */
   flex: none;
   order: 1;
   align-self: stretch;
   flex-grow: 0;
-
 }
-
-
 #section-3 {
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 60px 170px;
   gap: 60px;
-
-
   height: 552px;
-
   background: rgba(252, 244, 182, 0.5);
-
-
   flex: none;
   order: 3;
   align-self: stretch;
   flex-grow: 0;
   z-index: 3;
-
 }
-
 #section3boxText {
   text-align: center;
-
 }
-
 #section3boxText h1 {
-  /* title */
-
   width: 520px;
   height: 48px;
-
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 48px;
-  /* identical to box height, or 120% */
   text-align: center;
-
   color: #331436;
-
-
-  /* Inside auto layout */
   flex: none;
   order: 0;
   flex-grow: 0;
-
 }
-
 #section3boxText p {
-  /* description */
-
   width: 520px;
   height: 24px;
-
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
   text-align: center;
-
   color: #331436;
-
-
-  /* Inside auto layout */
   flex: none;
   order: 1;
   flex-grow: 0;
-
 }
-
 .section3icons {
   display: flex;
   flex-direction: row;
@@ -451,7 +316,6 @@ header {
   margin: 60px 170px;
   gap: 100px;
 }
-
 #viewAll {
   background-color: #331436;
   margin-top: 24px;
@@ -459,33 +323,23 @@ header {
   width: 240px;
   height: 48px;
 }
-
 .textBox {
-
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
   gap: 8px;
   margin: 0;
-
   width: 245px;
   height: 60px;
-
-
-  /* Inside auto layout */
   flex: none;
   order: 1;
   align-self: stretch;
   flex-grow: 0;
-
 }
-
 .hBox h3 {
-
   width: 245px;
   height: 28px;
-
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -493,43 +347,29 @@ header {
   line-height: 28px;
   margin: 0;
   margin-top: 20px;
-
   text-align: center;
-
   color: #331436;
   flex: none;
   order: 0;
   align-self: stretch;
   flex-grow: 0;
-
 }
-
 .pBox p {
-
   width: 245px;
   height: 24px;
-
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
   margin: 0;
   margin-top: 8px;
-
   text-align: center;
-
   color: #331436;
-
-
-
   flex: none;
   order: 1;
   align-self: stretch;
   flex-grow: 0;
-
 }
-
-
 .section-4 {
   display: flex;
   flex-direction: row;
@@ -538,127 +378,87 @@ header {
   padding: 60px 170px;
   gap: 60px;
   isolation: isolate;
-
   max-width: 1440px;
   height: 388px;
 }
-
-
 #section4Text {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-
   width: 520px;
   height: 96px;
 }
-
 #section4Login {
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-
   gap: 20px;
   width: 520px;
   height: 268px;
-
   flex: none;
   order: 1;
   flex-grow: 1;
   z-index: 1;
 }
-
 .textfield::placeholder {
-
   width: 496px;
   height: 20px;
-
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-
-
   color: rgba(0, 0, 0, 0.5);
-
   flex: none;
   order: 0;
   flex-grow: 1;
-
 }
-
 .title h4 {
   margin: 0;
   margin-bottom: 0;
   padding: 0 0;
 }
-
 .textfield {
-
   box-sizing: border-box;
-
-
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 8px 12px;
   gap: 4px;
   margin: 4px;
-
   width: 520px;
   height: 36px;
-
   background: #FFFFFF;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 6px;
-
-
-
   flex: none;
   order: 1;
   align-self: stretch;
   flex-grow: 0;
-
 }
-
-
-
 .info {
-
   width: 520px;
   height: 16px;
-
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
-
-
   color: rgba(0, 0, 0, 0.5);
-
-
-
   flex: none;
   order: 2;
   align-self: stretch;
   flex-grow: 0;
-
 }
-
 #subscribe {
   background-color: #331436;
   margin-top: 24px;
   margin-bottom: 24px;
   width: 240px;
   height: 48px;
-
 }
-
 footer {
   display: flex;
   flex-direction: column;
@@ -669,92 +469,67 @@ footer {
   color: white;
   padding: 10px 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-
   font-style: normal;
   height: 220px;
   font-family: 'Roboto', sans-serif;
   border: none;
   margin: none;
 }
-
 #footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 #icons {
   width: 136px;
   height: 34.46px;
-
   flex: none;
   order: 0;
   flex-grow: 0;
   gap: 16px;
-
 }
-
 .background {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #fff;
   background-position: center;
-
   border-radius: 50%;
   width: 34px;
   height: 34px;
 }
-
 #icons img {
-
   height: 11px;
   width: 11px;
   align-items: center;
-
-
 }
-
-
 .txt-company {
   font-size: 16px;
   margin-left: 20px;
 }
-
 .icon-social {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-
 }
-
-
-
-
 .kanban {
-
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 60px 170px;
   gap: 60px;
-
   max-width: 1440px;
   height: 746px;
   min-height: 600px;
-
   background: rgba(0, 0, 0, 0.1);
-
-
   flex: none;
   order: 1;
   align-self: stretch;
   flex-grow: 0;
   z-index: 1;
 }
-
 .todo-col,
 .inprogress-col,
 .complete-col {
@@ -763,160 +538,106 @@ footer {
   align-items: flex-start;
   padding: 16px;
   gap: 10px;
-
   width: 240px;
   min-width: 240px;
   height: 626px;
-
   background: #FFFFFF;
   border-radius: 8px;
-
   flex: none;
   order: 0;
   align-self: stretch;
   flex-grow: 0;
 }
-
 .todo-col h1,
 .inprogress-col h1,
 .complete-col h1 {
-
   width: 208px;
   height: 24px;
-
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 24px;
-
-
   color: #331436;
-
-
-
   flex: none;
   order: 0;
   flex-grow: 0;
-
 }
-
 .card {
-
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 10px;
   gap: 10px;
-
   width: 200px;
   min-width: 200px;
   height: 127px;
-
   background: #F8F2FF;
   border: 1px solid #331436;
   border-radius: 8px;
-
-
   flex: none;
   order: 1;
   flex-grow: 0;
-
 }
-
 .card-header {
-
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 0px;
   gap: 104px;
-
   width: 180px;
   height: 24px;
-
-
-
   flex: none;
   order: 0;
   align-self: stretch;
   flex-grow: 0;
-
 }
-
 .priority h2 {
-
   font-size: 10px;
   box-sizing: border-box;
-
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: auto;
   gap: 10px;
-
   width: 30px;
   height: 15px;
-
   border: 1px solid #7A1745;
   border-radius: 8px;
-
-
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 10px;
   line-height: 24px;
-
 }
-
-
 .date h3 {
-
-
   width: 60px;
   height: 24px;
-
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 10px;
   line-height: 24px;
-
-
   color: rgba(0, 0, 0, 0.5);
-
-
-
   flex: none;
   order: 1;
   flex-grow: 0;
-
 }
-
 .card-title h2 {
-
   width: auto;
   height: 24px;
-
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 800;
   font-size: 12px;
   line-height: 24px;
-
-
   color: #331436;
-
   flex: none;
   order: 1;
   flex-grow: 0;
-
 }
-
 .card-footer {
   display: flex;
   flex-direction: row;
@@ -924,17 +645,13 @@ footer {
   align-items: center;
   padding: 7px 5px;
   gap: 5px;
-
   width: 180px;
   height: 39px;
-
   flex: none;
   order: 2;
   align-self: stretch;
   flex-grow: 0;
-
 }
-
 .card-users {
   display: flex;
   flex-direction: row;
@@ -942,18 +659,13 @@ footer {
   justify-content: flex-end;
   padding: 0px;
   gap: 2px;
-
-
   margin: 0 -20px;
   width: 133px;
   height: 25px;
-
   flex: none;
   order: 1;
   flex-grow: 0;
-
 }
-
 .user {
   display: flex;
   align-items: center;
@@ -963,78 +675,57 @@ footer {
   border-radius: 50%;
   padding: 0px;
   color: #fff;
-
   background-color: #000;
   border-radius: 50%;
   margin: 0;
   width: 25px;
   height: 25px;
-
-
   flex: none;
   order: 1;
   flex-grow: 0;
-
 }
-
 #high {
   color: #7A1745;
   background-color: #CB4F57;
   border: solid #7A1745;
 }
-
 #mid {
   color: #CB4F57;
   background-color: #EB9961;
   border: solid #CB4F57;
-
 }
-
 #low {
   color: #EB9961;
   background-color: #FCF4B6;
   border: solid #EB9961;
 }
-
-
 #user-1 {
   background-color: #801E8F;
 }
-
 #user-2 {
   background-color: #2E4B83;
 }
-
 #user-3 {
   background-color: #D92B93;
 }
-
 #user-4 {
   background-color: #1A712D;
 }
-
 #user-5 {
   background-color: #AF4A00;
 }
-
-
 .textfield:hover {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2)
 }
-
 .background:hover {
   box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.8)
 }
-
 .btn:hover {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5)
 }
-
 .card:hover {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5)
 }
-
-
 #error {
   color: red;
   font-weight: bold;

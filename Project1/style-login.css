@@ -4,7 +4,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
 header {
     display: flex;
     justify-content: space-between;
@@ -18,19 +17,16 @@ header {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     box-sizing: border-box;
 }
-
 h1 {
     font-size: 28px;
     font: optional;
     font-family: 'Roboto', sans-serif;
 }
-
 #icon-textHeader {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 #icon-header {
     margin-top: 15px;
     margin-bottom: 15px;
@@ -39,7 +35,6 @@ h1 {
     max-width: 50px;
     max-height: 50px;
 }
-
 .btn {
     margin-top: 24px;
     margin-bottom: 24px;
@@ -52,7 +47,6 @@ h1 {
     font-size: 16px;
     border-radius: 8px;
 }
-
 .section-4 {
     display: flex;
     flex-direction: row;
@@ -61,95 +55,66 @@ h1 {
     padding: 60px 170px;
     gap: 60px;
     isolation: isolate;
-
     max-width: 1440px;
     height: 388px;
 }
-
-
 #section4Text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-
     width: 520px;
     height: 96px;
 }
-
 #section4Login {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-
     gap: 20px;
     width: 520px;
     height: 268px;
-
     flex: none;
     order: 1;
     flex-grow: 1;
     z-index: 1;
 }
-
 .textfield::placeholder {
-
     width: 496px;
     height: 20px;
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-
-
     color: rgba(0, 0, 0, 0.5);
-
     flex: none;
     order: 0;
     flex-grow: 1;
-
 }
-
 .title h4 {
     margin: 0;
     margin-bottom: 0;
     padding: 0 0;
 }
-
 .textfield {
-
     box-sizing: border-box;
-
-
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 8px 12px;
     gap: 4px;
     margin: 4px;
-
     width: 520px;
     height: 36px;
-
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 6px;
-
-
-
     flex: none;
     order: 1;
     align-self: stretch;
     flex-grow: 0;
-
 }
-
-
-
 #form {
     display: flex;
     flex-direction: row;
@@ -157,54 +122,37 @@ h1 {
     align-items: center;
     padding: 60px 170px;
     gap: 60px;
-
     height: 600px;
     min-height: 600px;
-
     flex: none;
     order: 1;
     align-self: stretch;
     flex-grow: 0;
     z-index: 1;
 }
-
 #containerList {
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 24px;
-
     width: 520px;
     height: 96px;
-
     flex: none;
     order: 0;
     flex-grow: 1;
-
 }
-
 #list {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     padding: 0px;
     gap: 40px;
-
-    /* width: 520px;
-    height: 248px; */
-
-
-    /* Inside auto layout */
     flex: none;
     order: 1;
     flex-grow: 1;
-
 }
-
 footer {
     display: flex;
     flex-direction: column;
@@ -215,76 +163,56 @@ footer {
     color: white;
     padding: 10px 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-
-    /* Adicionado px */
     font-style: normal;
     height: 220px;
     font-family: 'Roboto', sans-serif;
     border: none;
     margin: none;
 }
-
 #footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 #icons {
     width: 136px;
     height: 34.46px;
-
     flex: none;
     order: 0;
     flex-grow: 0;
     gap: 16px;
-
 }
-
-
 #icons img {
-
     height: 11px;
     width: 11px;
     align-items: center;
-
-
 }
-
 .background {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #fff;
     background-position: center;
-
     border-radius: 50%;
     width: 34px;
     height: 34px;
-
 }
-
 .txt-company {
     font-size: 16px;
     margin-left: 20px;
 }
-
 .icon-social {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 16px;
-
 }
-
 .textfield:hover {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2)
 }
-
 .btn:hover {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5)
 }
-
 #message {
     color: red;
     font-weight: bold;

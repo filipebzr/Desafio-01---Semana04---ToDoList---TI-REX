@@ -1,74 +1,54 @@
-
 # Project Manager
 
-**Project Manager** é uma aplicação para organizar e gerenciar projetos de forma eficiente, centralizando todas as suas ideias e atividades em um único lugar. Ele ajuda na colaboração em equipe e na organização de tarefas de forma simples e intuitiva.
+**Project Manager** is a web application designed to help teams and individuals manage projects, tasks, and collaborate efficiently in one place.
 
-## Funcionalidades
+## Key Features
 
-- Cadastro de projetos e tarefas
-- Visualização de projetos de forma estruturada
-- Interface simples e responsiva
-- Acesso fácil para gerenciar equipes e ideias
+- **Kanban Board**: Organize tasks into "To Do", "In Progress", and "Complete" columns to track progress.
+- **User Management**: Login and validation of email and password with visual feedback for the user.
+- **Update Subscription**: Capture user emails and names to send notifications about updates and news.
+- **Responsive Design**: Clean and intuitive interface with responsive design, optimizing user experience across devices.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-Este projeto foi desenvolvido com as seguintes tecnologias:
+- **Frontend**: HTML5, CSS3, JavaScript
+- **Validation**: Regex for client-side email and password validation
+- **Local Storage**: Utilizes `localStorage` to save user data.
 
-- **HTML5**: Estrutura e conteúdo da página.
-- **CSS3**: Estilos para a página, utilizando Flexbox para alinhamento centralizado.
-- **JavaScript**: Para adicionar interatividade à aplicação (se necessário).
-- **Fontes**: Fonte **Roboto** para um design moderno e claro.
+## Project Structure
 
-## Estrutura do Projeto
-
-```
-project-manager/
-│
-├── index.html            # Arquivo HTML principal
-├── style.css             # Arquivo CSS com todos os estilos
-├── script.js             # Arquivo JS para interatividade (caso haja)
-├── images/               # Imagens utilizadas no projeto
-│   ├── facebook.png      # Ícone do Facebook
-│   ├── instagram.png     # Ícone do Instagram
-│   ├── linkedin.png      # Ícone do LinkedIn
-│   └── logo-header.png   # Logo do cabeçalho
-└── README.md             # Documentação do projeto
+```plaintext
+.
+├── home.html           # Home page
+├── kanban.html         # Kanban Board
+├── script.js           # Scripts for the homepage and general functionalities
+├── script-login.js     # Scripts for authentication and login
+├── style-login.css     # Main application styling
 ```
 
-## Como Rodar o Projeto
+## How to Run
 
-Para visualizar o projeto localmente, basta seguir os seguintes passos:
-
-1. **Clone o repositório**:
-   Abra o terminal e execute o comando:
+1. Clone this repository:
    ```bash
-   git clone https://github.com/seu-usuario/project-manager.git
+   git clone https://github.com/yourusername/project-manager.git
    ```
-
-2. **Acesse a pasta do projeto**:
+2. Navigate to the project directory:
    ```bash
    cd project-manager
    ```
+3. Open the `home.html` file in your browser to get started.
 
-3. **Abra o arquivo `index.html` no navegador**:
-   - Clique duas vezes no arquivo `index.html` para abrir no seu navegador ou use um servidor local, como o [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) no VSCode.
+## Prerequisites
 
-## Como Contribuir
+- Updated browser (Chrome, Firefox, Edge, etc.)
+- Internet connection to load external fonts and icons.
 
-1. Faça um fork deste repositório.
-2. Crie uma nova branch (`git checkout -b feature-nome`).
-3. Realize as modificações necessárias e faça commit (`git commit -am 'Adiciona nova feature'`).
-4. Envie para o seu fork (`git push origin feature-nome`).
-5. Abra um Pull Request no repositório original.
+## Future Improvements
 
-## Licença
+- Implement a back-end for centralized data management.
+- Support for multiple users with secure authentication.
+- Integration with productivity tools such as Google Calendar and Slack.
 
-Este projeto está licenciado sob a **MIT License** - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+## Contribution
 
-## Contato
-
-Se você tiver alguma dúvida ou sugestão sobre o projeto, sinta-se à vontade para abrir uma *issue* ou entrar em contato com o autor.
-
----
-
-Desenvolvido por **[Seu Nome]**. 
+Contributions are welcome! Feel free to open a pull request or create an issue to discuss improvements.

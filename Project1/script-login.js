@@ -18,37 +18,25 @@ function validPassword(password) {
     return passwordRegex.test(password);
 }
 
-// document.getElementById("login").addEventListener("submit", function(email, password) {
-//     check.preventDefault()
-//     const errorElement = document.getElementById("message");
-//     let email = validEmail(email);
-//     let password = validPassword(password);
-
-//     if (!validEmail(email) || !validEmail) {
-//         errorElement.innerText = "Invalid Email. Try again";
-//         return;
-//     }
-//     if (!validPassword(password)) {
-//         errorElement.innerText = "Invalid Password.";
-//         return;
-//     }
-
-//     errorElement.innerText = "Invalid name or email";
-// });
-
 document.getElementById("login").addEventListener("click", function (check) {
     check.preventDefault();
 
     const email = document.getElementById("email").value.trim();
     const password = document.getElementById("password").value.trim();
     const errorElement = document.getElementById("message");
+    const errorEmail = document.getElementById('email');
+    const errorPassword = document.getElementById('password');
 
     if (!validEmail(email)) {
         errorElement.innerText = "Invalid Email. Try again";
+        errorEmail.style.borderColor = 'red';
+        errorPassword.style.borderColor = 'red';
         return;
     }
     if (!validPassword(password)) {
         errorElement.innerText = "Invalid Password.";
+        errorEmail.style.borderColor = 'red';
+        errorPassword.style.borderColor = 'red';
         return;
     }
 

@@ -52,11 +52,10 @@ Cada apresentação durará no máximo 5 minutos.
 
 
 ### 🔶 Login
-**************************************************************
 - Ao clicar em Login, deve ser validado se o campo email está preenchido e se está com um email válido (pode usar RegEx, por exemplo), o campo senha também não pode estar vazio. O erro deve ser exibido em tela da forma que você achar melhor.
-- Caso os requisitos sejam atendidos, ao clicar em Login a aplicação deve redirecionar à página do Kanban.
-- Essa página não possui scroll.
-**************************************************************
+- Caso os requisitos sejam atendidos, ao clicar em Login a aplicação deve redirecionar à página do Kanban.✅
+- Essa página não possui scroll.✅
+
 
 
 ### 🔶 Kanban
@@ -68,7 +67,4 @@ Cada apresentação durará no máximo 5 minutos.
 
 - Aplicar responsividade em seu projeto.
 - Aplicar efeitos de Hover.✅
-
-**************************************************************
-- Mensagem de confirmação ao enviar os dados do formulário corretamente. [Design livre]
-**************************************************************
+- Mensagem de confirmação ao enviar os dados do formulário corretamente. [Design livre]✅
