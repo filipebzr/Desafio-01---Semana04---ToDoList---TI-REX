@@ -270,8 +270,48 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
+  text-align: left;
   gap: 40px;
   margin: auto;
+}
+
+.section2Boxes h4 {
+
+  width: 316px;
+  height: 24px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #331436;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.section2Boxes p {
+
+  width: 316px;
+  height: 28px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+
+  color: #331436;
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+
 }
 
 #section2boxText h1 {
@@ -992,4 +1032,10 @@ footer {
 
 .card:hover {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5)
+}
+
+
+#error {
+  color: red;
+  font-weight: bold;
 }

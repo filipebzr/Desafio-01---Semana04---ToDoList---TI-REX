@@ -38,23 +38,17 @@ Cada apresentação durará no máximo 5 minutos.
 - Crie um repositório **privado** em seu Github e adicione os instrutores como colaboradores do projeto.✅
 - Todas as páginas devem conter header e footer (como não estamos trabalhando com componentização ainda, podem replicar os códigos de header e footer nos arquivos HTML de cada página).✅
 - Adicionar corretamente os links nos botões e ícones, como os de redes sociais, no footer.✅
-
-*************************************************************
-- Os campos de formulário devem ser todos validados com **JavaScript**, isso é válido para todos os campos para preenchimento nas duas páginas.
-- Dê preferência por separar em arquivos diferentes os códigos de styles e script (ou seja, um .html, um .css e um .js). 
-- Utilizar tags semânticas para montagem do HTML.
-**************************************************************
-
+- Os campos de formulário devem ser todos validados com **JavaScript**, isso é válido para todos os campos para preenchimento nas duas páginas.✅
+- Dê preferência por separar em arquivos diferentes os códigos de styles e script (ou seja, um .html, um .css e um .js). ✅
+- Utilizar tags semânticas para montagem do HTML.✅
 
 - Adicione um README ao seu projeto.
+
 - Faça pequenos commits e use Convencionais Commits para manter seu repositório organizado.✅
 
 ### 🔶 Home
-
-**************************************************************
 - Ao clicar em Subscribe, deve ser validado se o campo email está preenchido e se está com um e-mail válido (pode usar RegEx, por exemplo), o campo nome também não pode estar vazio. O erro deve ser exibido em tela da forma que você achar melhor.
 - Caso os requisitos sejam atendidos, as informações do formulário devem ser armazenadas no LocalStorage .
-**************************************************************
 
 
 ### 🔶 Login
